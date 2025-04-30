@@ -11,10 +11,12 @@
     <Description>XListView is an ordinary WinForms listview component, but with less flicker, hopefully :-) It exposes the protected DoubleBuffer property of the base class.</Description>
     <Copyright>(c) 2025, Adrian Petrila, YO3GFH</Copyright>
     <PackageTags>listview;flicker;common controls</PackageTags>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     <Authors>Adrian Petrila, YO3GFH</Authors>
     <PackageIcon>XListView.png</PackageIcon>
     <ErrorReport>none</ErrorReport>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/yo3gfh/XListView2</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|AnyCPU'">
@@ -27,6 +29,13 @@
 
   <ItemGroup>
     <None Include="XListView.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
