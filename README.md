@@ -1,4 +1,4 @@
-## XListView v1.0.0, a regular WinForms ListView, but with less flicker :-)
+## XListView v1.0.1, a regular WinForms ListView, but with less flicker :-)
 Copyright (c) 2025 Adrian Petrila, YO3GFH
 
 -------

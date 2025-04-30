@@ -18,6 +18,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/yo3gfh/XListView2</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|AnyCPU'">
